@@ -31,8 +31,8 @@
     WGActionSheet *sheet = [[WGActionSheet alloc] initWithTitle:@"Hello!" andDetail:@"How are you? I am fine."];
     [sheet addButtonWithTitle:@"a"];
     [sheet addButtonWithTitle:@"b"];
-    //[sheet addButtonWithTitle:@"c"];
-    //[sheet addButtonWithTitle:@"d"];
+    [sheet addButtonWithTitle:@"c"];
+    [sheet addButtonWithTitle:@"d"];
     [sheet show];
 }
 - (IBAction)onActionSheet2:(id)sender

@@ -107,6 +107,7 @@
 		8447DDC21E6E7E7C003ADDA5 /* WGAlert */ = {
 			isa = PBXGroup;
 			children = (
+				8447DDFD1E6FCC88003ADDA5 /* WGAlert */,
 				8447DDC61E6E7E7C003ADDA5 /* AppDelegate.h */,
 				8447DDC71E6E7E7C003ADDA5 /* AppDelegate.m */,
 				8447DDC91E6E7E7C003ADDA5 /* ViewController.h */,
@@ -116,10 +117,6 @@
 				8447DDD11E6E7E7C003ADDA5 /* LaunchScreen.storyboard */,
 				8447DDD41E6E7E7C003ADDA5 /* Info.plist */,
 				8447DDC31E6E7E7C003ADDA5 /* Supporting Files */,
-				8447DDF61E6E7ED5003ADDA5 /* WGActionSheet.h */,
-				8447DDF71E6E7ED5003ADDA5 /* WGActionSheet.m */,
-				8447DDF91E6E7EFF003ADDA5 /* WGAlertView.h */,
-				8447DDFA1E6E7EFF003ADDA5 /* WGAlertView.m */,
 			);
 			path = WGAlert;
 			sourceTree = "<group>";
@@ -148,6 +145,17 @@
 				8447DDEA1E6E7E7C003ADDA5 /* Info.plist */,
 			);
 			path = WGAlertUITests;
+			sourceTree = "<group>";
+		};
+		8447DDFD1E6FCC88003ADDA5 /* WGAlert */ = {
+			isa = PBXGroup;
+			children = (
+				8447DDF61E6E7ED5003ADDA5 /* WGActionSheet.h */,
+				8447DDF71E6E7ED5003ADDA5 /* WGActionSheet.m */,
+				8447DDF91E6E7EFF003ADDA5 /* WGAlertView.h */,
+				8447DDFA1E6E7EFF003ADDA5 /* WGAlertView.m */,
+			);
+			name = WGAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

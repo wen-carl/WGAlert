@@ -17,7 +17,7 @@
 
 @end
 
-@interface WGActionSheet : UIView
+@interface WGActionSheet : UIView <UIScrollViewDelegate>
 
 // 标题
 @property (nonatomic,  copy, readonly) NSString *title;
@@ -36,10 +36,23 @@
 
 
 - (instancetype)initWithTitle:(NSString *)title andDetail:(NSString *)detail;
+- (void)setMaxVisibleButtonCount:(NSUInteger)count;
+
+- (void)setTitleViewBackgroundColor:(UIColor *)color;
+- (void)setTitleColor:(UIColor *)color;
+- (void)setDetailColor:(UIColor *)color;
+
 - (void)setCancelButttonWithTitle:(NSString *)title;
+- (void)setCancelButtonBackGroundColor:(UIColor *)color;
+
 - (void)addButtonWithTitle:(NSString *)title;
-- (void)setMaxVisibleButtonCount:(NSInteger)count;
+- (void)setButtonsTitleColor:(UIColor *)color;
+- (void)setButtonsBackgroundColor:(UIColor *)color;
+- (void)setButton:(NSUInteger)index titleColor:(UIColor *)color;
+- (void)setButton:(NSUInteger)index backGroundColor:(UIColor *)color;
+
 - (void)show;
 - (void)close;
+
 
 @end
